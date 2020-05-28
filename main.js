@@ -76,7 +76,7 @@ class IpAddress {
   // Node.js convention is to pass error data as the first argument to a callback.
   // The IAP convention is to pass returned data as the first argument and error
   // data as the second argument to the callback function.
-  return callback(JSON.stringify(firstIpAddress), callbackError);
+  return callback(firstIpAddress, callbackError);
 }
 
 }
